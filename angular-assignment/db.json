@@ -1,0 +1,19 @@
+{
+  "carDetail": [
+    {
+      "id": 1,
+      "car_no": "1234",
+      "owner_name": "Anil"
+    },
+    {
+      "id": 2,
+      "car_no": "4567abc",
+      "owner_name": "Suresh2"
+    },
+    {
+      "car_no": "3456",
+      "owner_name": "dinesh",
+      "id": 3
+    }
+  ]
+}

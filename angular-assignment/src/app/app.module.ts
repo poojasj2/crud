@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { ReactiveFormsModule } from '@angular/forms';
+import {FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -14,7 +14,7 @@ import { entityConfig } from './entity-metadata';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { environment } from '../environments/environment';
 import { CustomurlHttpGenerator } from './car/dashboard/store/customurl-http-generator';
-import { CarModule } from './car/car.module';
+import { CarModule } from '../app/car/car-module';
 
 
 @NgModule({
@@ -26,6 +26,7 @@ import { CarModule } from './car/car.module';
     BrowserModule,
     AppRoutingModule,
      HttpClientModule,
+    FormsModule,
     ReactiveFormsModule,
     NgbModule,
     StoreModule.forRoot({}, {}),

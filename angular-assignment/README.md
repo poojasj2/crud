@@ -8,7 +8,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 ## steps to follow run project
 1. need to install npm before ng serve
-2. install the JSON server globally onto your local machine and run npm run json-run command.db.json file is created automatically.
+2. install the JSON server globally onto your local machine and run npm run json-run command.db.json file is created automatically and run json-server --watch db.json
 3.To implement NgRx Data we have to depend on 'NgRx Store', 'NgRx Effects', and 'NgRx Entity', so we have to install all those packages.
 a. Command To Install NgRx Store
 ng add @ngrx/store@latest
